@@ -1,14 +1,20 @@
 {
-    "posts": [
-      { "id": "t1", "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      { "id": "t3", "title": "Post 3" }
+    "customers": [
+      { "id": 1, "name": "Alice" },
+      { "id": 2, "name": "Bob" },
+      { "id": 3, "name": "Charlie" }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
+    "products": [
+      { "id": 1, "item": "Spoon", "cost": 1.99 },
+      { "id": 2, "item": "Knife", "cost": 2.99 },
+      { "id": 3, "item": "Fork", "cost": 2.99 }
     ],
-    "profile": {
-      "name": "typicode"
-    }
+    "sales": [
+        { "id": 1, "customerid": 1, "productid": 2, "purchasedate": "2019-05-01" },
+        { "id": 2, "customerid": 1, "productid": 3, "purchasedate": "2019-05-01" },
+        { "id": 3, "customerid": 2, "productid": 1, "purchasedate": "2019-05-12" },
+        { "id": 4, "customerid": 2, "productid": 2, "purchasedate": "2019-05-12" },
+        { "id": 5, "customerid": 2, "productid": 3, "purchasedate": "2019-05-12" },
+        { "id": 6, "customerid": 3, "productid": 3, "purchasedate": "2019-05-21" }
+    ]
   }

@@ -1,2 +1,2 @@
-# MockServer
-A mock server for testing REST APIs via https://my-json-server.typicode.com/
+# Python Doodle
+A project for messing around all things Python related.
